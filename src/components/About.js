@@ -172,6 +172,17 @@ const About = () => {
                 </LinkTrans>
               </div>
               <div>
+                <h3>Youtube 링크 삽입 항목</h3>
+                <LinkTrans>
+                    <p> <span
+                      onClick={() =>
+                        window.open("https://www.youtube.com/watch?v=yYbnZVPhMBA", "_blank")
+                      }
+                    >🎹 음악을 좋아합니다</span></p>
+
+                </LinkTrans>
+              </div>
+              <div>
                 <h3>&nbsp;</h3>
                 <pre>
                   스스로 느끼기에 아직 부족하다고 느끼며 <br></br>계속해서
